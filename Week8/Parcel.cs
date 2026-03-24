@@ -2,7 +2,7 @@ namespace Week8;
 
 public class Parcel: DeliveryItem
 {
-    public string Dimensions{ get; set;}
+    public string Dimensions{ get; private set;}
     public Parcel (string trackingNumber, double weight, string dimensions) : base(trackingNumber, weight)
     {
         Dimensions = dimensions;
