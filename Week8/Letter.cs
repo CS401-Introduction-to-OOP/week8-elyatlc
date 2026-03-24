@@ -2,7 +2,7 @@ namespace Week8;
 
 public class Letter: DeliveryItem
 {
-    public Letter(string name, int weight) : base(name, weight)
+    public Letter(string trackingNumber, double weight) : base(trackingNumber, weight)
     {
     }
 

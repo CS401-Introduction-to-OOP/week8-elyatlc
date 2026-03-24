@@ -2,8 +2,8 @@ namespace Week8;
 
 public abstract class DeliveryItem
 {
-    public string TrackingNumber;
-    public double Weight;
+    public string TrackingNumber { get; set;}
+    public double Weight { get; set;}
     
     public DeliveryItem(string trackingNumber, double weight)
     {
